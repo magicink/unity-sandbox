@@ -16,7 +16,7 @@ namespace Behaviors.UI
         // Start is called before the first frame update
         private void Start()
         {
-            RestClientWrapper.Instance.HandleGetSuccess += HandleGetSuccess;
+            RestClientController.Instance.HandleGetSuccess += HandleGetSuccess;
         }
 
         private void HandleGetSuccess()

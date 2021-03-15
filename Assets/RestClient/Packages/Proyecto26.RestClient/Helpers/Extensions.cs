@@ -25,10 +25,11 @@ namespace Proyecto26.Common
         /// <returns>A boolean that indicates if the request is valid.</returns>
         public static bool IsValidRequest(this UnityWebRequest request, RequestHelper options)
         {
+            var isError = request.result == UnityWebRequest.Result.ConnectionError;
             return request.isDone &&
-            !request.isNetworkError &&
+            !isError &&
             (
-                !request.isHttpError || options.IgnoreHttpException
+                !isError || options.IgnoreHttpException
             );
         }
 

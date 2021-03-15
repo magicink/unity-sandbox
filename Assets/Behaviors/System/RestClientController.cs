@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Behaviors.System
 {
-    public class RestClientWrapper : MonoBehaviour
+    public class RestClientController : MonoBehaviour
     {
-        public static RestClientWrapper Instance;
+        public static RestClientController Instance;
 
         public delegate void OnGetSuccess();
 

@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 1069258280}
   - component: {fileID: 1069258279}
   m_Layer: 0
-  m_Name: HTTP Client
+  m_Name: Rest Client Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

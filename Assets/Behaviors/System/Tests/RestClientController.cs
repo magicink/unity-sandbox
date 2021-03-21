@@ -11,6 +11,7 @@ public class RestClientController
     public void RestClientControllerSimplePasses()
     {
         // Use the Assert class to test conditions
+        Assert.Equals(1, 1);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use

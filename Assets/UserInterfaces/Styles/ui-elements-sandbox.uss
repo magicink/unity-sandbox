@@ -5,3 +5,9 @@
     top: 0;
     width: 250px;
 }
+
+.sample-button {
+    background-color: blue;
+    color: white;
+    -unity-font-style: bold;
+}

@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cornerPrefab: {fileID: 1477194694360227962, guid: a684b89498f36b24d844c9801902c19e, type: 3}
+  size: 2
 --- !u!4 &782606055
 Transform:
   m_ObjectHideFlags: 0

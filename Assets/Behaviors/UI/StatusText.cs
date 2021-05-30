@@ -12,16 +12,5 @@ namespace Behaviors.UI
         {
             _text = GetComponent<TextMeshProUGUI>();
         }
-
-        // Start is called before the first frame update
-        private void Start()
-        {
-            RestClientController.Instance.HandleGetSuccess += HandleGetSuccess;
-        }
-
-        private void HandleGetSuccess()
-        {
-            if (_text) _text.text = "success!";
-        }
     }
 }
